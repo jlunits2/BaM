@@ -38,7 +38,7 @@ There are 4 arguments you can control:
     * 'comirec': ComiRec-SA from "Yukuo Cen, Jianwei Zhang, Xu Zou, Chang Zhou, Hongxia Yang, and Jie Tang. 2020. Controllable Multi-Interest Framework for Recommendation. In Proceedings of the 26th ACM SIGKDD International Conference on Knowledge Discovery & Data Mining (KDD '20). Association for Computing Machinery, New York, NY, USA, 2942–2951. https://doi.org/10.1145/3394486.3403344".
 - selection ('hard' or 'bam'): the method of selecting interest from multi-interests.
     * 'hard': hard selection from previous methods.
-    * 'BaM': The proposed soft-selection method BaM.
+    * 'bam': The proposed soft-selection method BaM.
 
 For example, you can train the model for Books dataset with BaM on ComiRec at 'bam' by following code:
 ```
