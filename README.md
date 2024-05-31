@@ -32,7 +32,7 @@ test recall[@10, @20]: [0.0819, 0.1153], test nDCG[@10, @20]: [0.0475, 0.0559]
 You can also train the model by running 'main.py'.
 There are 4 arguments you can control:
 - path (any string, default is 'run1'): the path to save the trained model and training log.
-- dataset ('movies', 'books', or 'electronics')
+- dataset ('movies' or 'books')
 - model ('mind' or 'comirec'): the backbone model to use.
     * 'mind': MIND from "Chao Li, Zhiyuan Liu, Mengmeng Wu, Yuchi Xu, Huan Zhao, Pipei Huang, Guoliang Kang, Qiwei Chen, Wei Li, and Dik Lun Lee. 2019. Multi-Interest Network with Dynamic Routing for Recommendation at Tmall. In Proceedings of the 28th ACM International Conference on Information and Knowledge Management (CIKM '19). Association for Computing Machinery, New York, NY, USA, 2615–2623. https://doi.org/10.1145/3357384.3357814".
     * 'comirec': ComiRec-SA from "Yukuo Cen, Jianwei Zhang, Xu Zou, Chang Zhou, Hongxia Yang, and Jie Tang. 2020. Controllable Multi-Interest Framework for Recommendation. In Proceedings of the 26th ACM SIGKDD International Conference on Knowledge Discovery & Data Mining (KDD '20). Association for Computing Machinery, New York, NY, USA, 2942–2951. https://doi.org/10.1145/3394486.3403344".
@@ -57,6 +57,5 @@ Preprocessed data are included in the data directory.
 | --- | ---: | ---: | ---: | ---: |
 |Movies & TV (movies)| 22,747 | 17,848 | 841,607 | 0.20% |
 |Books (books) | 14,905 | 13,642 | 626,702 | 0.31% |
-|Electronics (electronics)| 64,142 | 31,142 |  1,475,538 | 0.07% |
 
 The original datasets are available at https://amazon-reviews-2023.github.io.
